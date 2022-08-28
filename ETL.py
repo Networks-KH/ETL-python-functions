@@ -69,3 +69,9 @@ log("Extract phase Started")
 extracted_data = extract()
 log("Extract phase Ended")
 extracted_data
+#requests library example "this library for extract from web"
+url = "https://apilayer.com/account"
+uplod = requests.get(url)
+print(url)
+print(uplod)
+print(requests)
